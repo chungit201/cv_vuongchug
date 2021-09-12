@@ -1,0 +1,209 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/.adress-lines{
+    padding-left: 0;
+}
+.adress-lines li{
+    line-height: 30px;
+}
+.education-item {
+    position: relative;
+    background: #f5f5f5;
+    padding: 30px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.education-item .edu-time{
+    width: 100px;
+    height: 100px;
+    border: 10px solid #f1f2f7;
+    border-radius: 50%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top: 16px;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    margin-left: -50px;
+}
+.light-green{
+    background: #aec785;
+}
+.pd-top-30{
+    padding-top: 30px;
+}
+body{
+    font-family: 'PT Serif', serif
+}
+.sesion-main{
+    padding: 25px;
+}
+.desc-name{
+    box-shadow: 3px 3px 10px 3px rgb(0 0 0 / 10%);
+    background-color: #FFF;
+    margin-top: 30px;
+}
+.intro-desc{
+    padding-top: 20px;
+}
+.hieubiet p {
+    font-size: 13px;
+    color: black;
+}
+.skills{
+    margin-top: 30px;
+}
+.section-box:hover{
+    transform: scale(0.8)
+}
+.box-title{
+    padding-top: 50px;
+}
+.section-box{
+    position: relative;
+    box-shadow: 3px 3px 10px 3px rgb(0 0 0 / 10%);
+    background-color: #FFF;
+    margin-top: 30px;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background-color: aquamarine;
+    transition: 0.3s ease-in-out;
+}
+.main-box{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+.main-box ul li{
+    font-size: 13px;
+    color: black;
+}
+.title-cv{
+    background-color: #FFF;
+    box-shadow: 0 3px 3px 0 rgb(1 2 2 / 5%);
+    padding: 30px 0
+}
+.title-name{
+    font-size: 18px;
+}
+.title-cv h2{
+    text-align: center;
+    color: #a8aab3;
+    font-weight: 300;
+    font-family: 'PT Serif', serif
+}
+
+
+.head-content{
+    /* padding: 60px; */
+    z-index: 1;
+    padding-top: 120px;
+}
+.head-content h2{
+    color: #FFF;
+    font-size: 50px;
+    font-family: 'PT Serif', serif;
+    font-weight: 100;
+    text-align: center;
+    
+   
+}
+.head-content p{
+    
+    color: #FFF;
+    text-align: center;
+}
+.header{
+    background-image: url('https://cdn.trangcongnghe.com/uploads/posts/2017-01/moi-tai-ve-530-tam-anh-nen-theo-phong-cach-minimalist-doc-dao-danh-cho-may-tinh-phan-2_1.jpeg');
+    height: 430px;
+    width: 100%;
+    background-color: rgb(26, 188, 156);
+    background-position: 50% -143px;
+    
+}
+.transpan{
+    background-color: rgb(173 158 111 / 80%);
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.vertical-nav {
+    min-width: 17rem;
+    width: 17rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+  }
+  
+  .page-content {
+    width: calc(100% - 17rem);
+    margin-left: 17rem;
+    transition: all 0.4s;
+  }
+  
+  /* for toggle behavior */
+  
+  #sidebar.active {
+    margin-left: -17rem;
+  }
+  
+  #content.active {
+    width: 100%;
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    #sidebar {
+      margin-left: -17rem;
+    }
+    #sidebar.active {
+      margin-left: 0;
+    }
+    #content {
+      width: 100%;
+      margin: 0;
+    }
+    #content.active {
+      margin-left: 17rem;
+      width: calc(100% - 17rem);
+    }
+  }
+  
+  /*
+  *
+  * ==========================================
+  * FOR DEMO PURPOSE
+  * ==========================================
+  *
+  */
+  
+  body {
+    color: #8c8c8c;
+    /* background-color: #8c8c8c; */
+    font-family: 'Open Sans',sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  
+  .separator {
+    margin: 3rem 0;
+    border-bottom: 1px dashed #fff;
+  }
+  
+  .text-uppercase {
+    letter-spacing: 0.1em;
+  }
+  
+  .text-gray {
+    color: #aaa;
+  }
