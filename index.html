@@ -1,259 +1,298 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
+
 <body>
-    <!--important link source from "https://bootstrapious.com/p/bootstrap-vertical-navbar"-->
+  <!--important link source from "https://bootstrapious.com/p/bootstrap-vertical-navbar"-->
 
-<div class="vertical-nav bg-white" id="sidebar">
-  <div class="py-4 px-3 mb-4 bg-light">
-    <div class="media d-flex align-items-center"><img src="img/83726493_239031113767009_453941681994072064_n.jpg" alt="..." width="65" class="mr-3 rounded-circle img-thumbnail shadow-sm">
-      <div class="media-body">
-        <h4 class="m-0">Chung Vương</h4>
-        <p class="font-weight-light text-muted mb-0">Web developer</p>
-      </div>
-    </div>
-  </div>
-
-  <p class="text-gray font-weight-bold text-uppercase px-3 small pb-4 mb-0">Main</p>
-
-  <ul class="nav flex-column bg-white mb-0">
-    <li class="nav-item">
-      <a href="index.html" class="nav-link text-dark font-italic bg-light">
-                <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
-                Home
-            </a>
-    </li>
-    <li class="nav-item">
-      <a href="#" class="nav-link text-dark font-italic">
-                <i class="fa fa-address-card mr-3 text-primary fa-fw"></i>
-                About
-            </a>
-    </li>
-    <li class="nav-item">
-      <a href="#" class="nav-link text-dark font-italic">
-                <i class="fa fa-cubes mr-3 text-primary fa-fw"></i>
-                Services
-            </a>
-    </li>
-    <li class="nav-item">
-      <a href="#" class="nav-link text-dark font-italic">
-                <i class="fa fa-picture-o mr-3 text-primary fa-fw"></i>
-                Gallery
-            </a>
-    </li>
-  </ul>
-
-  
-  
-</div>
-<!-- End vertical navbar -->
-
-
-<!-- Page content holder -->
-<div class="page-content p-5" id="content">
-  <!-- Toggle button -->
-  <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold"> Toggle</small></button>
-
-  <!-- Demo content -->
-  <div class="header" data-image="img/cv-banner.jpg" data-transparency="0.80" data-color="26, 188, 156">
-    <div class="transpan">
-        <div class="head-content">
-            <h2 class="display-4">I'M VUONG VAN CHUNG</h2>
-            <p class="lead  mb-0">A FRONT_END DEVERLOPER</p>
+  <div class="vertical-nav bg-white" id="sidebar">
+    <div class="py-4 px-3 mb-4 bg-light">
+      <div class="media d-flex align-items-center"><img src="img/83726493_239031113767009_453941681994072064_n.jpg"
+          alt="..." width="65" class="mr-3 rounded-circle img-thumbnail shadow-sm">
+        <div class="media-body">
+          <h4 class="m-0">Chung Vương</h4>
+          <p class="font-weight-light text-muted mb-0">Web developer</p>
         </div>
-    </div>
-  </div>
-  <main>
-      <div class="title-cv">
-          <h2>VỀ TÔI</h2>
       </div>
+    </div>
+
+    <p class="text-gray font-weight-bold text-uppercase px-3 small pb-4 mb-0">Main</p>
+
+    <div id="main-nav">
+      <ul class="nav flex-column bg-white mb-0">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link text-dark font-italic bg-light">
+            <i class="fa fa-th-large mr-3 text-primary fa-fw"></i>
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-dark font-italic" id = "aboutlink">
+            <i class="fa fa-address-card mr-3 text-primary fa-fw"></i>
+            About
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-dark font-italic">
+            <i class="fa fa-cubes mr-3 text-primary fa-fw"></i>
+            Services
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link text-dark font-italic">
+            <i class="fa fa-picture-o mr-3 text-primary fa-fw"></i>
+            Gallery
+          </a>
+        </li>
+      </ul>
+    </div>
+
+
+
+  </div>
+  <!-- End vertical navbar -->
+
+
+  <!-- Page content holder -->
+  <div class="page-content p-5" id="content">
+    <!-- Toggle button -->
+    <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i
+        class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold"> Toggle</small></button>
+
+    <!-- Demo content -->
+    <div class="header" data-image="img/cv-banner.jpg" data-transparency="0.80" data-color="26, 188, 156">
+      <div class="transpan">
+        <div class="head-content">
+          <h2 class="display-4">I'M VUONG VAN CHUNG</h2>
+          <p class="lead  mb-0">A FRONT_END DEVERLOPER</p>
+        </div>
+      </div>
+    </div>
+    
+    <main>
+      
       <div class="container">
+        <div id="about">
+          <div class="title-cv">
+            <h2>VỀ TÔI</h2>
+          </div>
           <div class="row">
             <div class="col-md-3">
-                <div class="desc-name">
-                   <div class="sesion-main">
-                      <h2 class="title-name">
-                          <font >Giới thiệu</font>
-                        </h2>
-                        <div class="intro-desc" style="font-size: 12px;">
-                          <p>Họ và tên: Vương Văn Chung</p>
-                          <p>Ngày sinh: 30/09/2001</p>
-                          <p>Quê quán: Thạch Thất - Hà Nội</p>
-                        </div>
-                   </div>
+              <div class="desc-name">
+                <div class="sesion-main">
+                  <h2 class="title-name">
+                    <font>Giới thiệu</font>
+                  </h2>
+                  <div class="intro-desc" style="font-size: 12px;">
+                    <p>Họ và tên: Vương Văn Chung</p>
+                    <p>Ngày sinh: 30/09/2001</p>
+                    <p>Quê quán: Thạch Thất - Hà Nội</p>
+                  </div>
                 </div>
+              </div>
             </div>
 
             <div class="col-md-6">
-                <div class="desc-name">
-                    <div class="sesion-main">
-                       <h2 class="title-name">
-                           <font >Sơ lược</font>
-                         </h2>
-                         <div class="intro-desc" style="font-size: 13px;">
-                           <p><font>
-                            Tôi hiện là sinh viên năm cuối trường cao đẳng FPT Polytechnic.Với niềm đam mê với lập trình.
-                            Có kiến thức tối với javascipt,ES6,php thuần ,nodejs(express,mongooseDB,ResfulAPI).
-                            link github : <a href="https://github.com/chungit201">https://github.com/chungit201</a>
-                           </font>
-                        </p>
-                        <p>
-                            <font>
-                                Và đã làm rất nhiều project trong quá trình học tập tại trường và tìm hiểm trên mạng.
-                                Có xu hướng làm việc nhóm tốt. Ham học hỏi và tìm tòi những cái mới.
-                            </font>
-                        </p>
-                           
-                         </div>
-                    </div>
-                 </div>
+              <div class="desc-name">
+                <div class="sesion-main">
+                  <h2 class="title-name">
+                    <font>Sơ lược</font>
+                  </h2>
+                  <div class="intro-desc" style="font-size: 13px;">
+                    <p>
+                      <font>
+                        Tôi hiện là sinh viên năm cuối trường cao đẳng FPT Polytechnic.Với niềm đam mê với lập trình.
+                        Có kiến thức tối với javascipt,ES6,php thuần ,nodejs(express,mongooseDB,ResfulAPI).
+                        link github : <a href="https://github.com/chungit201">https://github.com/chungit201</a>
+                      </font>
+                    </p>
+                    <p>
+                      <font>
+                        Và đã làm rất nhiều project trong quá trình học tập tại trường và tìm hiểm trên mạng.
+                        Có xu hướng làm việc nhóm tốt. Ham học hỏi và tìm tòi những cái mới.
+                      </font>
+                    </p>
+                    <a href="acsset/CV Vuong Chung.pdf">
+                      <p>
+                        <font>
+                          My cv
+                        </font>
+                      </p>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div class="col-md-3">
-                <div class="desc-name">
-                   <div class="sesion-main">
-                      <h2 class="title-name">
-                          <font >Liên hệ</font>
-                        </h2>
-                        <div class="intro-desc" style="font-size: 12px;">
-                            <ul class="adress-lines">
-                                <li class="fas fa-map-marker-alt">Địa chỉ: Thạch Thất - Hà Nội</li>
-                                <li class="fas fa-phone-alt">SĐT: 0336972209</li>
-                                <li class="fas fa-envelope">Email:vuongvanchung30092001<br>@gmail.com </li>
-                            </ul>
-                         
-                            
-                            
-                       
-                        </div>
-                   </div>
+              <div class="desc-name">
+                <div class="sesion-main">
+                  <h2 class="title-name">
+                    <font>Liên hệ</font>
+                  </h2>
+                  <div class="intro-desc" style="font-size: 12px;">
+                    <ul class="adress-lines">
+                      <li class="fas fa-map-marker-alt">Địa chỉ: Thạch Thất - Hà Nội</li>
+                      <li class="fas fa-phone-alt">SĐT: 0336972209</li>
+                      <li class="fas fa-envelope">Email:vuongvanchung30092001<br>@gmail.com </li>
+                    </ul>
+
+
+
+
+                  </div>
                 </div>
+              </div>
             </div>
           </div>
+        </div>
 
-          <div class="title-cv">
-            <h2 style="text-align: center;">NGÔN NGỮ & FRAMEWORKS</h2>
+        <div class="title-cv">
+          <h2 style="text-align: center;">NGÔN NGỮ & FRAMEWORKS</h2>
         </div>
         <div class="skills">
-            <div class="row">
-                <div class="col-md-4">
-                    
-                    <div class="section-box">
-                        <h2 class="box-title" style="text-align: center; font-size: 18px;">
-                            <font>Ngôn ngữ</font>
-                        </h2>
-                          <div class="main-box">
-                            <ul>
-                                <li>HTML CSS</li>
-                                <li>Javascipt</li>
-                                <li>Nodejs</li>
-                                <li>ES6</li>
-                                <li>PHP thuần</li>
-                            </ul>
-                          </div>
-                    </div>
-                </div>
+          <div class="row">
+            <div class="col-md-4">
 
-                <div class="col-md-4">
-                    
-                    <div class="section-box" style="background-color: #ffb400c9">
-                        <h2 class="box-title" style="text-align: center;font-size: 18px;">
-                            <font>Database</font>
-                        </h2>
-                          <div class="main-box">
-                            <ul>
-                                <li>MongoDB</li>
-                                <li>MySql</li>
-                            </ul>
-                          </div>
-                    </div>
+              <div class="section-box">
+                <h2 class="box-title" style="text-align: center; font-size: 18px;">
+                  <font>Ngôn ngữ</font>
+                </h2>
+                <div class="main-box">
+                  <ul>
+                    <li>HTML CSS</li>
+                    <li>Javascipt</li>
+                    <li>Nodejs</li>
+                    <li>ES6</li>
+                    <li>PHP thuần</li>
+                  </ul>
                 </div>
-
-                <div class="col-md-4">
-                 
-                    <div class="section-box" style="background: rgb(248 0 255)">
-                        <h2 class="box-title" style="text-align: center;font-size: 18px;">
-                            <font>Hiểu biết</font>
-                        </h2>
-                          <div class="main-box" style="    left: 20%;">
-                            <div class="hieubiet" style="width:200px;">
-                                <p>
-                                    <font>
-                                        Thành thạo làm việc với DOM trong javascipt, Call API.
-                                        Hiểu biết tốt về thiết kế phần mềm, thiết kế cơ sở dữ liệu, RestfulAPI,
-                                    </font>
-                                    </p>
-                                    <p>
-                                        <font>
-                                            Kỹ năng quản lý thời gian, thuyết trình và làm việc nhóm tốt
-                                        </font>
-                                    </p>
-                            </div>
-                          </div>
-                    </div>
-                </div>
+              </div>
             </div>
+
+            <div class="col-md-4">
+
+              <div class="section-box" style="background-color: #ffb400c9">
+                <h2 class="box-title" style="text-align: center;font-size: 18px;">
+                  <font>Database</font>
+                </h2>
+                <div class="main-box">
+                  <ul>
+                    <li>MongoDB</li>
+                    <li>MySql</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+
+              <div class="section-box" style="background: rgb(248 0 255)">
+                <h2 class="box-title" style="text-align: center;font-size: 18px;">
+                  <font>Hiểu biết</font>
+                </h2>
+                <div class="main-box" style="    left: 20%;">
+                  <div class="hieubiet" style="width:200px;">
+                    <p>
+                      <font>
+                        Thành thạo làm việc với DOM trong javascipt, Call API.
+                        Hiểu biết tốt về thiết kế phần mềm, thiết kế cơ sở dữ liệu, RestfulAPI,
+                      </font>
+                    </p>
+                    <p>
+                      <font>
+                        Kỹ năng quản lý thời gian, thuyết trình và làm việc nhóm tốt
+                      </font>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="title-cv">
-            <h2 style="text-align: center;">GIÁO DỤC</h2>
+          <h2 style="text-align: center;">GIÁO DỤC</h2>
         </div>
-        
-            <div class="col-12">
-                <div class="education-item">
-                 <div class="edu-time light-green">
-                     <p style="font-size: 13px;">
-                         <font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;">2019</font>
-                         </font><br>
-                         <font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;">-</font>
-                         </font><br>
-                         <font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;">2022</font>
-                         </font>
-                         </p>
 
-                 </div> 
-                 <div class="edu-title">
-                     <p class="edu-session" style="text-align: center;    margin-top: 30px;">
-                        <font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;">CAO ĐẲNG FPT POLYTECHNIC</font>
-                         </font><br>
-                         <font style="vertical-align: inherit;">
-                            <font style="vertical-align: inherit;">9/2019 - 3/2022</font>
-                         </font>
-                     </p>
-                     <hr>
-                 </div>
-                </div>
+        <div class="col-12">
+          <div class="education-item">
+            <div class="edu-time light-green">
+              <p style="font-size: 13px;">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">2019</font>
+                </font><br>
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">-</font>
+                </font><br>
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">2022</font>
+                </font>
+              </p>
+
             </div>
+            <div class="edu-title">
+              <p class="edu-session" style="text-align: center;    margin-top: 30px;">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">CAO ĐẲNG FPT POLYTECHNIC</font>
+                </font><br>
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">9/2019 - 3/2022</font>
+                </font>
+              </p>
+              <hr>
+            </div>
+          </div>
         </div>
-       
       </div>
+
+  </div>
   </main>
- 
-  
 
 
-</div>
 
-<!-- End demo content -->
-<script
-  src="https://code.jquery.com/jquery-3.6.0.js"
-  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-  crossorigin="anonymous"></script>
-<script src="js/index.js"></script>
+
+  </div>
+
+  <!-- End demo content -->
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
+  <script>
+   function goToByScroll(id){
+          // Reove "link" from the ID
+        id = id.replace("link", "");
+          // Scroll
+        $('html,body').animate({
+            scrollTop: $("#"+id).offset().top},
+            'slow');
+    }
+
+    $(".nav-link").click(function(e) { 
+      console.log('okok');
+          // Prevent a page reload when a link is pressed
+        e.preventDefault(); 
+          // Call the scroll function
+        goToByScroll($(this).attr("id"));           
+    });
+
+  </script>
 </body>
+
 </html>
